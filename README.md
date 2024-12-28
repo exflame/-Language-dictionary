@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 
-# Create language dictionaries
+
 yoruba_dict= {
     'Ẹ káàárọ̀': 'Good morning',
     'Ẹ káàsán': 'Good afternoon',
@@ -125,14 +125,13 @@ german_dict = {
 
 
 
-# Store dictionaries inside one main dictionary
+
 language_dicts = {
     "Yoruba": yoruba_dict,
     "Edo": edo_dict,
     "Igbo": igbo_dict,
 }
 
-# Create the Tkinter app
 class LanguageApp(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -145,25 +144,25 @@ class LanguageApp(tk.Tk):
         self.create_widgets()
 
     def create_widgets(self):
-        # Language selection
+
         language_label = tk.Label(self, text="Select Language:")
         language_label.pack(pady=10)
 
         language_menu = ttk.Combobox(self, textvariable=self.language_var, values=list(language_dicts.keys()))
         language_menu.pack(pady=10)
 
-        # Word entry
+
         word_label = tk.Label(self, text="Enter Word:")
         word_label.pack(pady=10)
 
         word_entry = tk.Entry(self, textvariable=self.word_var)
         word_entry.pack(pady=10)
 
-        # Search button
+    
         search_button = tk.Button(self, text="Search", command=self.search_word)
         search_button.pack(pady=10)
 
-        # Result label
+    
         self.result_label = tk.Label(self, text="")
         self.result_label.pack(pady=10)
 
