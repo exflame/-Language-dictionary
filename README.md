@@ -34,9 +34,6 @@ yoruba_dict= {
     "sing": "kọrin",
     "jump": "fo",
 }
-
-print(yoruba_dict)
-
 edo_dict = {
     "ọmọ": {
         "translation": "Child",
