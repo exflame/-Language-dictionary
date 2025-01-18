@@ -116,12 +116,27 @@ igbo_dict = {
     "mmiri": "water"
 }
 
-german_dict = {
-    "hello": "hallo",
-    "world": "welt",
-    "apple": "apfel",
-    "banana": "banane",
-    
+fulani_dict={
+    'dillu':'go',
+    'yamdu':'food',
+    'sehde':'money',
+    'hete':'fire',
+    'padeh':'shoe',
+    'alu':'stop',
+    'marori':'rice',
+    'diyam':'water',
+    'wala':'nothing',
+    'hore':'head',
+    'lawol':'road',
+    'noppi':'ear',
+    'lumor':'market',
+    'jangirde':'study',
+    'jam':'good',
+    'allah':'GOD',
+    'nakgeh':'cow',
+    'wahdi':'enough',
+    'gehsa':'farm',
+}
 
 
 
@@ -130,6 +145,7 @@ language_dicts = {
     "Yoruba": yoruba_dict,
     "Edo": edo_dict,
     "Igbo": igbo_dict,
+    "Fulani":fulani_dict,
 }
 
 class LanguageApp(tk.Tk):
