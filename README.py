@@ -137,7 +137,27 @@ fulani_dict={
     'enough':'wahdi',
     'farm':'gehsa',
 }
-
+Hausa_dict={
+    'come':'zo',
+    'go':'tafi',
+    'food':'abinchi',
+    'water':'ruwa',
+    'fish':'kifi',
+    'onion':'albassa',
+    'hand':'hannu',
+    'ear':'kunne',
+    'nose':'hanchi',
+    'bed':'gado',
+    'fanka':'fan',
+    'lion':'zaki',
+    'one':'daya',
+    'four':'hudu',
+    'six':'shida',
+    'spoon':'chokali',
+    'book':'littafi',
+    'bag':'jaka',
+    'shoe':'takalmi',
+}
 
 
 
@@ -146,6 +166,7 @@ language_dicts = {
     "Edo": edo_dict,
     "Igbo": igbo_dict,
     "Fulani":fulani_dict,
+    "Hausa": Hausa_dict,
 }
 
 class LanguageApp(tk.Tk):
